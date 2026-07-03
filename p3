@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+int n, sum=0;
+printf("Enter n: ");
+scanf("%d",&n);
+for ( int i =1; i<=n; i++){
+    sum+=i;
+}
+printf("sum=%d\n",sum);
+if(sum%2==0)
+    printf("Sum is Even\n");
+else
+    printf("Sum is odd\n");
+return 0;
+}
